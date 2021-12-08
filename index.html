@@ -10,17 +10,20 @@
 <body>
  <div class="container">
      <h1>Get to know your Ghanian name based on your day of Birth</h1>
-      <div class="form">
-        <label for="Birthday">Birthday:</label>
+      <form class="form">
+        
         <input type="date" id="birthday" name="birthday">
+        <label for="Birthday">Birthday:</label>
+        <input type="text" id="results">
+
         <h4>select gender</h4>
-        <input type="radio" id="gender" name="gender">
+        <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
-        <input type="radio" id="gender" name="gender">
+        <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
         <button type="button" onclick="myFunction()">Submit</button>
-        <p id="demo"></p>
-    </div>
+        <input type="text" id="demo">
+      </form>
   
  </div>
     <script src="js/script.js"></script>
