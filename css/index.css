@@ -1,1 +1,14 @@
 
+body{
+    background-color: aqua;
+}
+.container{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: white;
+}
+.form{
+    padding-left: 200px;
+    line-height: 30px;
+}
