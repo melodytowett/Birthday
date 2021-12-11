@@ -12,3 +12,9 @@ body{
     padding-left: 200px;
     line-height: 30px;
 }
+.row{
+    margin-left: 200px;
+}
+input{
+margin: 5px;
+}
