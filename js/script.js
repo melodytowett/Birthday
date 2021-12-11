@@ -23,23 +23,23 @@
             var cc = parseInt(year.slice(0,2));
             var day =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
             var weekDay=Math.ceil(day) ;
-        //    var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        // //    var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
         //     if (weekDay = 0) {
-        //         alert("sunday");
+        //        document.write("<b>sunday</b>");
         //     }else if (weekDay = 1) {
-        //         alert("Monday");
+        //        document.write("<b>Monday</b>");
         //     }else if (weekDay = 2) {
-        //         alert("Tuesday");
+        //         document.write("<b>Tuesday</b>");
         //     }else if (weekDay = 3) {
-        //         alert("Wednesday");
+        //         document.write("<b>Wednesday</b>");
         //     }else if (weekDay = 4) {
-        //         alert("Thursday");
+        //         document.write("<b>Thursday</b>");
         //     }else if (weekDay = 5) {
-        //         alert("Friday");
+        //         document.write("<b>Friday</b>");
         //     }else{
-        //         alert("Saturday")
+        //         document.write("<b>Saturday</b>")
         //     }
-        // alert (weekDay);
+           alert (weekDay);
         var gender = document.querySelector('input[name = "gender"]:checked').value;
         if (gender==="female") {
             //var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -122,45 +122,6 @@
  }
  
  
- 
- 
-//  function myFunction() {
-//     var year = document.getElementById("year").value;
-//     var myYear = year;
-//     if (myYear == "") {
-//         alert("provide year");
-//        // document.myForm.YYY.focus();
-//         return false;
-//     } 
-//     var month = document.getElementById("month").value;
-//     var myMonth = month;
-//     if (myMonth == "" || myMonth <=0 || myMonth >12 ){
-//         alert("Enter valid a month");
-//         return false;
-//     } 
-//     var date = document.getElementById("date").value;
-//     var myDate = date;
-//     if (myDate = "" || myDate <=0 || myDate >31) {
-//         alert("Enter a valid date");
-//         return false;
-//     }else{
-//         var
-//     }
-//     var gender = document.forms[0];
-//     var text = "";
-//     var i;
-//     for(i = 0; i<gender.length; i++){
-//         if (gender[i].checked) {
-//             text = text + gender [i].value + "";
-//         }
-//     }
-// document.getElementById("demo").value= text;
- 
-// var getSelectedValue = document.querySelector('input[name="gender"]:checked');
-// if (getSelectedValue !=null) {
-//    return false;
-// }
-//  }
 
 
 
@@ -193,16 +154,3 @@
 
 
 
-// if (document.getElementById("male").checked) {
-//     var selectedValue = document.getElementById("demo").value;
-// }else{
-//     var selectedValue = document.getElementById("demo").value;
-// }
-//     console.log("your name is kwasi");
-// }else{
-//     console.log("your name is Akosu");
-// }
-// let dayToday = new date (y);
-// document.write("getDay() :" +dayToday.getDay() );
-
-// document.getElementById("demo").value = dayToday;
