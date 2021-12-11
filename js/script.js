@@ -23,26 +23,43 @@
             var cc = parseInt(year.slice(0,2));
             var day =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
             var weekDay=Math.ceil(day) ;
-            if (weekDay = 0) {
-                alert("sunday");
-            }else if (weekDay = 1) {
-                alert("Monday")
-            }else if (weekDay = 2) {
-                alert("Tuesday")
-            }else if (weekDay = 3) {
-                alert("Wednesday")
-            }else if (weekDay = 4) {
-                alert("Thursday");
-            }else if (weekDay = 5) {
-                alert("Friday");
-            }else{
-                alert("Saturday")
-            }
-        alert (weekDay);
+        //    var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        //     if (weekDay = 0) {
+        //         alert("sunday");
+        //     }else if (weekDay = 1) {
+        //         alert("Monday");
+        //     }else if (weekDay = 2) {
+        //         alert("Tuesday");
+        //     }else if (weekDay = 3) {
+        //         alert("Wednesday");
+        //     }else if (weekDay = 4) {
+        //         alert("Thursday");
+        //     }else if (weekDay = 5) {
+        //         alert("Friday");
+        //     }else{
+        //         alert("Saturday")
+        //     }
+        // alert (weekDay);
         var gender = document.querySelector('input[name = "gender"]:checked').value;
         if (gender==="female") {
             //var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-            var name =["Akosua","Adwoa","Abena","Akua","Yaa","Afua","Ama"]
+            var name //=["Akosua","Adwoa","Abena","Akua","Yaa","Afua","Ama"];
+            // if (weekDay === "Sunday") {
+            //     alert("Akosua");
+            // }else if (weekDay==="Monday") {
+            //     alert("Adwoa");
+            // }else if (weekDay === "Tuesday") {
+            //     alert("Abena");
+            // }else if(weekDay === "Wednesday"){
+            //     alert("Akua");
+            // }else if (weekDay === "Thursday") {
+            //     alert("Yaa");
+            // }else if (weekDay === "Friday") {
+            //     alert("Afua");
+            // }else{
+            //     alert("Ama");
+            // }
+        
             switch (weekDay) {
                  case 0:
                     name = "Akosua";
@@ -69,32 +86,32 @@
                     } 
                     //alert (name);
                     document.getElementById("output").innerHTML = "Your Akhan name is" +" " +name;
-           
-        }else{
-           switch (weekDay) {
-            case 0:
-                name = "Kwasi";
-                break;
-            case 1:
-                name = "Kwadwo";
-                break;
-            case 2:
-                name = "Kwabena";
-                break;
-            case 3:
-                name = "Kwaku";
-                break;
-            case 4:
-                name = "Yaw";
-                break;
-            case 5:
-                name = "Kofi";
-                break;
-            case 6:
-                name = "Kwame"; 
-                break;
-                } 
-        } //alert (name);
+                
+                }else{
+                switch (weekDay) {
+                    case 0:
+                        name = "Kwasi";
+                        break;
+                    case 1:
+                        name = "Kwadwo";
+                        break;
+                    case 2:
+                        name = "Kwabena";
+                        break;
+                    case 3:
+                        name = "Kwaku";
+                        break;
+                    case 4:
+                        name = "Yaw";
+                        break;
+                    case 5:
+                        name = "Kofi";
+                        break;
+                    case 6:
+                        name = "Kwame"; 
+                        break;
+                        } 
+                } //alert (name);
         document.getElementById("output").innerHTML = "Your Akhan name is" +" " +name;
         
           }
