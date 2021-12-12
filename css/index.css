@@ -1,12 +1,14 @@
 
 body{
-    background-color: aqua;
+    background-color: white;
+    opacity: 0.7;
 }
 .container{
-    margin: 20px;
+    margin: 50px;
     border: 1px solid black;
     padding: 30px;
-    background-color: white;
+    background-color: aqua;
+    
 }
 .form{
     padding-left: 200px;
