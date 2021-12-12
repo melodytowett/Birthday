@@ -5,7 +5,7 @@
      var gender = document.querySelector('input[name = "gender"]:checked').value;
      if (!year.match(/^\d\d\d\d$/)) {
         alert("provide year");
-       // document.myForm.YYY.focus();
+      
         return false;
     } else if (month == "" || month <=0 || month >12 ) {
         alert("enter valid month");
@@ -26,19 +26,19 @@
             if (weekDay== 0) {
                     alert("Sunday");
                     }else if (weekDay == 1) {
-                    alert("Monday")
+                    alert("Monday");
                     }else if (weekDay==2) {
-                    alert("Tuesday")
+                    alert("Tuesday");
                     }else if (weekDay == 3) {
-                    alert("Wednesday")
+                    alert("Wednesday");
                     }else if (weekDay== 4) {
-                    alert("Thursday")
+                    alert("Thursday");
                     }else if (weekDay == 5) {
-                    alert("Friday")
+                    alert("Friday");
                     }else{
-                    alert("Saturday")
+                    alert("Saturday");
                 }
-          // alert (weekDay);
+     
         var gender = document.querySelector('input[name = "gender"]:checked').value;
         if (gender==="female") {
             var name;
@@ -67,7 +67,7 @@
                             break;
                         
                     } 
-                    //alert (name);
+                  
                     document.getElementById("output").innerHTML = "Your Akhan name is" +" " +name;
                 
                 }else{
@@ -94,7 +94,7 @@
                         name = "Kwame"; 
                         break;
                         } 
-                } //alert (name);
+                }
         document.getElementById("output").innerHTML = "Your Akhan name is" +" " +name;
         
           }
@@ -102,9 +102,9 @@
     }
     realDay();
 
- }
  
  
+}
 
 
 
