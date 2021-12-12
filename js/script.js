@@ -23,18 +23,32 @@
             var cc = parseInt(year.slice(0,2));
             var day =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
             var weekDay=Math.ceil(day) ;
+            if (weekDay== 0) {
+                    alert("Sunday");
+                    }else if (weekDay == 1) {
+                    alert("Monday")
+                    }else if (weekDay==2) {
+                    alert("Tuesday")
+                    }else if (weekDay == 3) {
+                    alert("Wednesday")
+                    }else if (weekDay== 4) {
+                    alert("Thursday")
+                    }else if (weekDay == 5) {
+                    alert("Friday")
+                    }else{
+                    alert("Saturday")
+                }
           // alert (weekDay);
         var gender = document.querySelector('input[name = "gender"]:checked').value;
         if (gender==="female") {
-            //var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+            var name;
            
-              var name;
             switch (weekDay) {
                  case 0:
                     name = "Akosua";
                     break;
                 case 1:
-                    name = "Adwoa";
+                    name  = "Adwoa";
                     break;
                 case 2:
                     name = "Abenaa";
@@ -43,13 +57,13 @@
                     name = "Akua";
                     break;
                 case 4:
-                    name = "Yaa";
+                    name  = "Yaa";
                     break;
                 case 5:
-                    name = "Afua";
+                    name  = "Afua";
                     break;
                 case 6:
-                    name = "Ama";
+                    name  = "Ama";
                             break;
                         
                     } 
