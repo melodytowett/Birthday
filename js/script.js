@@ -17,49 +17,18 @@
             var month = document.getElementById("month").value;
             var date = document.getElementById("date").value;
 
-            var yy = parseInt(year);
+            var yy = parseInt(year.slice(-2));
             var mm = parseInt(month);
             var dd = parseInt(date);
             var cc = parseInt(year.slice(0,2));
             var day =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
             var weekDay=Math.ceil(day) ;
-        // //    var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-        //     if (weekDay = 0) {
-        //        document.write("<b>sunday</b>");
-        //     }else if (weekDay = 1) {
-        //        document.write("<b>Monday</b>");
-        //     }else if (weekDay = 2) {
-        //         document.write("<b>Tuesday</b>");
-        //     }else if (weekDay = 3) {
-        //         document.write("<b>Wednesday</b>");
-        //     }else if (weekDay = 4) {
-        //         document.write("<b>Thursday</b>");
-        //     }else if (weekDay = 5) {
-        //         document.write("<b>Friday</b>");
-        //     }else{
-        //         document.write("<b>Saturday</b>")
-        //     }
-           alert (weekDay);
+          // alert (weekDay);
         var gender = document.querySelector('input[name = "gender"]:checked').value;
         if (gender==="female") {
             //var weekDay =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-            var name //=["Akosua","Adwoa","Abena","Akua","Yaa","Afua","Ama"];
-            // if (weekDay === "Sunday") {
-            //     alert("Akosua");
-            // }else if (weekDay==="Monday") {
-            //     alert("Adwoa");
-            // }else if (weekDay === "Tuesday") {
-            //     alert("Abena");
-            // }else if(weekDay === "Wednesday"){
-            //     alert("Akua");
-            // }else if (weekDay === "Thursday") {
-            //     alert("Yaa");
-            // }else if (weekDay === "Friday") {
-            //     alert("Afua");
-            // }else{
-            //     alert("Ama");
-            // }
-        
+           
+              var name;
             switch (weekDay) {
                  case 0:
                     name = "Akosua";
