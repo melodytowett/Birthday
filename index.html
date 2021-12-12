@@ -10,25 +10,31 @@
 </head>
 <body>
  <div class="container">
-     <h1>Get to know your Ghanian name based on your day of Birth</h1>
+     <div class="card bg-primary text-white"> 
+         <h3><b>Do You know your Birthday???</b></h3>
+         <p><b>Ohh yes Of course. I know you Know. But do you know which day of the week was is??<br>Porbably No.
+        Lemme help you know your exact day and tell you your Ghanian Name Based on your Day.</b></p>
+     </div>
+     <h4>Get to know your Ghanian name based on your day of Birth</h4>
      <div class="row">
       <form name="myForm"  onsubmit="return validateForm()">
 
-            <h4>Enter Your birhday</h4>
-            Year:<input type="number" name="YYY" id="year"><br>      
-            Month:<input type="number" name="MMM" id="month"><span id="mess"></span><br>
-            Date:<input type="number" name="DDD" id="date"> <span id="errmess"></span><br>
-                <p id="results"></p>
-        
+            <h5>Enter Your birhday</h5>
+            Year:<input type="text" name="YYY" id="year"><br>      
+            Month:<input type="text" name="MMM" id="month"><br>
+            Date:<input type="text" name="DDD" id="date"> 
+              
+       
 
-            <h4>select gender</h4>
+            <h5>select gender</h5>
             <input type="radio" id="male" name="gender"  value="male">
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label><br>
             <button type="button" onclick="birthDay()">Submit</button><br><br>
-            <input type="text" id="demo">
+             
       </form>
+      <div id="output"></div>
       </div>
  
  </div>
