@@ -1,6 +1,6 @@
 body{
-    background-image: url("/images/Akhaan.jpg");
-    background-repeat: no-repeat;
+    /* background-image: url("https://image.freepik.com/free-vector/ethnic-people-african-tribes-traditional-clothing-nature-background_1308-50067.jpg"); */ 
+    background-color: rgb(255, 123, 71);
     background-size: cover;
 }
 h1{
