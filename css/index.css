@@ -1,22 +1,57 @@
-
 body{
-    background-color: white;
-    opacity: 0.8;
+    background-image: url("/images/Akhaan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.container{
-    margin: 50px;
+h1{
+    text-align: center;
+    text-decoration: underline 3px white;
+
+}
+
+/* .container-fluid{
+    margin: 100px;
     border: 1px solid black;
     padding: 30px;
+    width: 70%;
     background-color: aqua;
-    
-}
-.form{
+} */
+.Form{
     padding-left: 200px;
     line-height: 30px;
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 70px 70px 70px 70px;
+}
+#output{
+    color: sienna;
+    height: 80px;
+    width: 200px;
+    margin-top: 200px;
+    font-size: larger;
+}
+.Myname{
+    display: flex;
 }
 .row{
-    margin-left: 200px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
 }
 input{
 margin: 5px;
+}
+table{
+    border: 1px solid black;
+}
+tr, td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+.footer{
+    display: flex;
+    background-color: skyblue;
+    justify-content: space-around;
+    margin: 20px;
+    font-weight: bold;
 }
