@@ -6,10 +6,10 @@
      if (!year.match(/^\d\d\d\d$/)) {
         alert("provide year");
       
-        return false;
+       // return false;
     } else if (month == "" || month <=0 || month >12 ) {
         alert("enter valid month");
-    }else if (date = "" || date <=0 || date >31) {
+    }else if (date =="" || date <=0 || date >31) {
         alert("enter valid date");
     }else{
         var realDay = function(year,month,date){
