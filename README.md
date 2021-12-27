@@ -12,9 +12,7 @@ A month > 12 and < 0               | 0 or 14                 |   Invalid month
  -----------------------------------|--------------------------|-----------------------------
 A year with more or less than 4 digits  |202 or 200001            | Invalid input
  -----------------------------------|--------------------------|-----------------------------
-Print out Your Akhan name accoring to your Day of birth and gender | Saturday gender male     |Your Akhan name is kwame
-     |                         
- -----------------------------------|---------------------------|------------------------------
+Print out Your Akhan name accoring to your Day of birth and gender | Saturday gender male     |Your Akhan name is kwame                        
 ## our program should
 * Validates Dates months and check in year has 4 digits;
 * Use Slice() Function to find the century 
