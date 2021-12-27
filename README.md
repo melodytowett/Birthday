@@ -3,7 +3,11 @@
 ## Description
 {This is an apllication That helps the user know his/her exact day of birth and also tells the user their Ghanian Name.Ghanian nanes are names based on the day of the week one was born. }
 ### BDD 
-## Behaviour  of our program       |             input      |              output
+|Attempt | #1 | #2 |
+ -------|-----|------|
+ seconds| 322 | 292 |
+   Behaviour  of our program       |             input      |              output
+ ----------------------------------------------------------------------------------------
 A day that is less than 0 but      |                        |
  greater that 30                   |         33 or 0        |              Invalid          
 ------------------------------------------------------------------------------------------
